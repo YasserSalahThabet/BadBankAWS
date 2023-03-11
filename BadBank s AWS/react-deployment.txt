@@ -1,0 +1,19 @@
+Deploying a React.js app to AWS involves several steps, including creating an EC2 instance, setting up security groups, installing and configuring Nginx, and building and deploying your React app. Here's a general overview of the process:
+
+Create an EC2 instance: First, you need to create an EC2 instance in your AWS account. You can choose an instance type based on your requirements, such as memory and CPU requirements.
+
+Set up security groups: Next, you need to configure security groups to allow incoming traffic to your EC2 instance. You can create a security group and open up ports to allow HTTP and HTTPS traffic.
+
+Install Nginx: Once your instance is up and running, you can install Nginx on it. Nginx is a popular web server that can serve as a reverse proxy for your React app.
+
+Configure Nginx: After Nginx is installed, you need to configure it to serve your React app. You can create a new server block and set the root directory to the build folder of your React app.
+
+Build your React app: Before you can deploy your React app, you need to build it. You can use the command "npm run build" to create a production build of your app.
+
+Upload your code: Upload your React app code to your EC2 instance. You can use tools like Git or SCP to transfer your code to your EC2 instance.
+
+Start Nginx: Once your code is uploaded, you can start Nginx using the command line. Nginx will serve your React app from the build folder.
+
+Set up a domain name: Optionally, you can set up a domain name for your app using Route 53 or another DNS provider.
+
+These are the basic steps involved in deploying a React.js app to AWS. Depending on your specific requirements and the tools you're using, the process may vary slightly. It's important to ensure that your security groups and configuration settings are secure and meet your application's requirements.

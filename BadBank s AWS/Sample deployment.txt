@@ -1,0 +1,12 @@
+Sample Deployment
+http://bankss.s3-website-ap-northeast-1.amazonaws.com/
+
+Sign up using fictitious details, not real data (Use of real data will violate 
+confidentiality policy of the service)
+For example use:
+
+Create Account
+Name: Sample Deployment
+Email: student@localhost.com
+Pass: Use anything
+
